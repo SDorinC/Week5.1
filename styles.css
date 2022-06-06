@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 1000px;
+    height: 800px;
+    border-style: outset;
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: rgb(167, 155, 179);
+    padding: 20px;
+}
+
+#secondary {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#comment {
+    height: 200px;
+}
+
+#email {
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    left: 230px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+label {
+    height: 40px;
+    font-size: 30px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+}
+
+ul {
+    border-style: inset;
+    height: 500px;
+    background-color: wheat;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    list-style: none;
+    padding: 10px;
+}
+
+ul li {
+    position: relative;
+    font-size: 30px;
+    text-indent: 40px;
+    border-bottom: 1px solid black;
+    width: 950px;
+    overflow-wrap: break-word;
+    margin-right: 50px;
+}
+
+ul li button {
+    font-size: 20px;
+    position: absolute;
+    right: -15px;
+    border-style: none;
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    color: red;
+}
